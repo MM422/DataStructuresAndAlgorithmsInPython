@@ -26,3 +26,7 @@ class LinkedDeque(_DoublyLinkedBase):
         if self.is_empty():
             raise ValueError('The Dequeue is empty')
         self._delete_node(self._tail._prev)
+
+    def test(self):
+        """ The python ccode for this method is based on two things: _delete_node() from the super class, _insert_between from the super class"""
+        pass
